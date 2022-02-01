@@ -146,7 +146,7 @@ class DQNAgent:
         Update the epsilon value with a simple greedy epsilon descent
         :return:
         """
-        self.epsilon = max(self.epsilon*self.epsilon_decay, self.epsilon_min)
+        self.epsilon = max(self.epsilon * self.epsilon_decay, self.epsilon_min)
 
     def resetMemory(self):
         """
