@@ -9,7 +9,7 @@ import random
 
 
 class DQNAgent:
-    def __init__(self, nactions: int, obs_shape: Tuple[int, int], epsilonDecay: float, epsilonMin: float,
+    def __init__(self, nactions: int, obs_shape: Tuple[int, int, int], epsilonDecay: float, epsilonMin: float,
                  epsilonMax: float, alpha: float,
                  gamma: float, batch_size: int,
                  memorySize: int) -> None:
